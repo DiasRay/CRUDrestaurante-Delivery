@@ -10,7 +10,6 @@ function CardRestaurantes({restaurante}: CardRestaurantesProps) {
         <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
             <header className='py-2 px-6 bg-indigo-800 text-white font-bold text-2xl'>
                 Restaurante
-                <hr></hr>
             </header>
             <p className='p-8 text-3xl bg-slate-200 h-full'>{restaurante.razaoSocial}</p>
             <p className='p-8 text-3xl bg-slate-200 h-full'>{restaurante.endereco}</p>
