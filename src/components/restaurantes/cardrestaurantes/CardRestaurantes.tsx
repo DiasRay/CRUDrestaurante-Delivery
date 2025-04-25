@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Restaurante from '../../../../models/Restaurante'
+import Restaurante from '../../../models/Restaurante'
 
 interface CardRestaurantesProps{
     restaurante: Restaurante

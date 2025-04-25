@@ -21,10 +21,13 @@ function App() {
             <Routes>
               <Route path="/" element={<Login />} />
               <Route path='/home' element={<ListaRestaurantes />}/>
+
+              {/* link restaurantes */}
               <Route path="/restaurantes" element={<ListaRestaurantes />} /> 
               <Route path="/cadastrarrestaurante" element={<FormRestaurante />} />
               <Route path="/deletarrestaurante/:id" element={<DeletarRestaurante />} />
               <Route path="/editarrestaurante/:id" element={<FormRestaurante />} />
+              {/* link restaurantes */}
             </Routes>
           </div>
         </BrowserRouter>

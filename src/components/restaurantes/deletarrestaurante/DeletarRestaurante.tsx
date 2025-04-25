@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import Restaurante from '../../../../models/Restaurante'
-import { AuthContext } from '../../../../contexts/AuthContext'
-import { buscar, deletar } from '../../../../services/Service'
+import Restaurante from '../../../models/Restaurante'
+import { AuthContext } from '../../../contexts/AuthContext'
+import { buscar, deletar } from '../../../services/Service'
 import { RotatingLines } from 'react-loader-spinner'
-import { ToastAlerta } from '../../../../utils/ToastAlerta'
+import { ToastAlerta } from '../../../utils/ToastAlerta'
 
 function DeletarRestaurante() {
     const navigate = useNavigate()
