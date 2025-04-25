@@ -1,11 +1,11 @@
 import { Link, useNavigate } from "react-router-dom";
 import CardRestaurantes from "../cardrestaurantes/CardRestaurantes"
 import { useContext, useEffect, useState } from "react";
-import Restaurante from "../../../../models/Restaurante";
-import { AuthContext } from "../../../../contexts/AuthContext";
-import { buscar } from "../../../../services/Service";
+import Restaurante from "../../../models/Restaurante";
+import { AuthContext } from "../../../contexts/AuthContext";
+import { buscar } from "../../../services/Service";
 import { RotatingLines } from "react-loader-spinner";
-import { ToastAlerta } from "../../../../utils/ToastAlerta";
+import { ToastAlerta } from "../../../utils/ToastAlerta";
 
 function ListaRestaurantes() {
 

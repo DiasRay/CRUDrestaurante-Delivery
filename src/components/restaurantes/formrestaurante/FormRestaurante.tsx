@@ -1,10 +1,10 @@
 import { ChangeEvent, useContext, useEffect, useState } from 'react'
-import { atualizar, buscar, cadastrar } from '../../../../../services/Service';
+import { atualizar, buscar, cadastrar } from '../../../services/Service';
 import { useNavigate, useParams } from 'react-router-dom';
-import Restaurante from '../../../../../models/Restaurante';
-import { AuthContext } from '../../../../../contexts/AuthContext';
+import Restaurante from '../../../models/Restaurante';
+import { AuthContext } from '../../../contexts/AuthContext';
 import { RotatingLines } from 'react-loader-spinner';
-import { ToastAlerta } from '../../../../../utils/ToastAlerta';
+import { ToastAlerta } from '../../../utils/ToastAlerta';
 
 function FormRestaurante() {
 

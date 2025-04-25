@@ -3,11 +3,11 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from './pages/login/Login'
 import { AuthProvider } from './contexts/AuthContext'
-import FormRestaurante from './components/restaurantes/listarRestaurantes/formrestaurante/FormRestaurante.tsx/FormRestaurante'
-import DeletarRestaurante from './components/restaurantes/listarRestaurantes/deletarrestaurante/DeletarRestaurante'
+import FormRestaurante from './components/restaurantes/formrestaurante/FormRestaurante'
+import DeletarRestaurante from './components/restaurantes/deletarrestaurante/DeletarRestaurante'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify'
-import ListaRestaurantes from './components/restaurantes/listarRestaurantes/listaRestaurante/ListarRestaurante'
+import ListaRestaurantes from './components/restaurantes/listaRestaurante/ListarRestaurante'
 
 function App() {
   const [count, setCount] = useState(0)
