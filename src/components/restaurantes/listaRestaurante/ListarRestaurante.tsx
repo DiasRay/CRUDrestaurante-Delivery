@@ -43,7 +43,7 @@ function ListaRestaurantes() {
         <>
 
         <button>
-            <Link to='/cadastrarrestaurante' className='hover:underline'>Cadastrar tema</Link>       
+            <Link to='/cadastrarrestaurante' className='hover:underline'>Cadastrar Restaurante</Link>       
         </button>
 
             {restaurantes.length === 0 && (
